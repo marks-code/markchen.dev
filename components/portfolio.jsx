@@ -96,13 +96,13 @@ export default function PortfolioComponent() {
             I&apos;m always open to new opportunities and collaborations. Feel free to reach out!
           </p>
           <div className="flex space-x-4">
-            <a href="https://github.com/marks-code" className="text-gray-600 hover:text-gray-800">
+            <a href="https://github.com/marks-code/" target="_blank" className="text-gray-600 hover:text-gray-800">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/mark-chen-914769291" className="text-gray-600 hover:text-gray-800">
+            <a href="https://linkedin.com/in/mark-chen-914769291" target="_blank" className="text-gray-600 hover:text-gray-800">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:marksarchivehelp@gmail.com" className="text-gray-600 hover:text-gray-800">
+            <a href="mailto:marksarchivehelp@gmail.com" target="_blank" className="text-gray-600 hover:text-gray-800">
               <Mail size={24} />
             </a>
           </div>

@@ -19,12 +19,12 @@ export default function PortfolioComponent() {
     <div className="w-full min-h-screen bg-gray-100 text-gray-800">
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Your Name</h1>
+          <h1 className="text-2xl font-bold">Mark Chen</h1>
           <nav className="hidden md:flex space-x-4">
             <a href="#about" className="hover:text-blue-600 transition-colors">About</a>
             <a href="#projects" className="hover:text-blue-600 transition-colors">Projects</a>
             <a href="#skills" className="hover:text-blue-600 transition-colors">Skills</a>
-            <a href="#contact" className="hover:text-blue-600 transition-colors">Contact</a>
+            <a href="#resume" className="hover:text-blue-600 transition-colors">Resume</a>
           </nav>
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden">
             {isMenuOpen ? <X /> : <Menu />}
@@ -42,7 +42,7 @@ export default function PortfolioComponent() {
           <a href="#about" className="block py-2 hover:text-blue-600 transition-colors">About</a>
           <a href="#projects" className="block py-2 hover:text-blue-600 transition-colors">Projects</a>
           <a href="#skills" className="block py-2 hover:text-blue-600 transition-colors">Skills</a>
-          <a href="#contact" className="block py-2 hover:text-blue-600 transition-colors">Contact</a>
+          <a href="#resume" className="block py-2 hover:text-blue-600 transition-colors">Resume</a>
         </motion.nav>
       )}
 
@@ -111,7 +111,7 @@ export default function PortfolioComponent() {
 
       <footer className="bg-gray-200 py-4 mt-16">
         <div className="container mx-auto px-4 text-center text-gray-600">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Mark Chen. All rights reserved.
         </div>
       </footer>
     </div>

@@ -102,7 +102,7 @@ export default function PortfolioComponent() {
             <a href="https://linkedin.com/in/mark-chen-914769291" target="_blank" className="text-gray-600 hover:text-gray-800">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:marksarchivehelp@gmail.com" target="_blank" className="text-gray-600 hover:text-gray-800">
+            <a href="mailto:markrchen1@gmail.com" target="_blank" className="text-gray-600 hover:text-gray-800">
               <Mail size={24} />
             </a>
           </div>
